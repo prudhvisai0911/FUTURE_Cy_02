@@ -19,7 +19,7 @@ The focus of this project is on **security log analysis, threat detection, and i
 ---
 
 ## 📂 Repository Structure
-'''
+```
 .
 ├── Evidence/
 │ ├── A001_MalwareGeneral.csv
@@ -32,7 +32,7 @@ The focus of this project is on **security log analysis, threat detection, and i
 ├── FUTURE_TASK_2.pdf
 └── README.md
 
-'''
+```
 
 ---
 
