@@ -1,7 +1,7 @@
-# 🕵️‍♂️ Task 2 – Security Investigation
+# 🕵️‍♂️ Task 2 –SECURITY ALERT MONITORING & INCIDENT RESPONSE
 
 This repository contains my work for **Task 2 of the Future Interns Cyber Security Internship**.  
-The focus of this project is on **security log analysis and threat detection** using real-world log samples and threat intelligence.
+The focus of this task is on **security log analysis and threat detection** using real-world log samples and threat intelligence.
 
 ---
 
