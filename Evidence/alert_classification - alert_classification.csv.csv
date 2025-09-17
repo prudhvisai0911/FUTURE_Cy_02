@@ -1,0 +1,5 @@
+Alert ID,Alert Title,Severity,SPL Query (simplified),Trigger Condition,Action
+A-001,Malware Detected (General),High,"index=internship_logs sourcetype=TXT_logs host=SOC_TASK2 action=""malware detected"" | stats count by threat, user, ip",Number of results > 0,Send Email (SOC Team)
+A-002,Ransomware Behavior Detected,High,"index=internship_logs sourcetype=TXT_logs host=SOC_TASK2 action=""malware detected"" | search ""Ransomware Behavior"" | table _time user ip threat",Number of results > 0,Send Email (SOC Team)
+A-003,Rootkit Signature Detected,High,"index=internship_logs sourcetype=TXT_logs host=SOC_TASK2 action=""malware detected"" | search ""Rootkit Signature"" | table _time user ip threat",Number of results > 0,Send Email (SOC Team)
+A-004,Trojan Detected,Medium-High,"index=internship_logs sourcetype=TXT_logs host=SOC_TASK2 action=""malware detected"" | search ""Trojan Detected"" | table _time user ip threat",Number of results > 0,Send Email (SOC Team)
